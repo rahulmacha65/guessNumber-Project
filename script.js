@@ -61,6 +61,8 @@ document.querySelector('.check').addEventListener('click', function () {
   //   }
   // }
 });
+// Restting Game 
+
 document.querySelector('.again').addEventListener('click', function () {
   Score = 20;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
